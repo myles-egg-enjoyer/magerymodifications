@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.madelyndustries.magerymodifications.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "net.madelyndustries.magerymodifications.mixins.MixinPlugin",
+  "mixins": [
+    "pocketDimensionRubberbandingKillerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

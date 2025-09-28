@@ -1,0 +1,13 @@
+{
+  "itemGroup.magerymodifications": "Example Mod Tab",
+  "block.magerymodifications.example_block": "Example Block",
+  "item.magerymodifications.example_item": "Example Item",
+
+  "magerymodifications.configuration.title": "Madelyn's Miscellaneous Magery Modifications Configs",
+  "magerymodifications.configuration.section.magerymodifications.common.toml": "Madelyn's Miscellaneous Magery Modifications Configs",
+  "magerymodifications.configuration.section.magerymodifications.common.toml.title": "Madelyn's Miscellaneous Magery Modifications Configs",
+  "magerymodifications.configuration.items": "Item List",
+  "magerymodifications.configuration.logDirtBlock": "Log Dirt Block",
+  "magerymodifications.configuration.magicNumberIntroduction": "Magic Number Text",
+  "magerymodifications.configuration.magicNumber": "Magic Number"
+}
