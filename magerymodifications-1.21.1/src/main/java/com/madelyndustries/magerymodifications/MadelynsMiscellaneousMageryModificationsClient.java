@@ -25,7 +25,7 @@ public class MadelynsMiscellaneousMageryModificationsClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        MadelynsMiscellaneousMageryModifications.LOGGER.info("HELLO FROM CLIENT SETUP");
-        MadelynsMiscellaneousMageryModifications.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        //MadelynsMiscellaneousMageryModifications.LOGGER.info("HELLO FROM CLIENT SETUP");
+        //MadelynsMiscellaneousMageryModifications.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
