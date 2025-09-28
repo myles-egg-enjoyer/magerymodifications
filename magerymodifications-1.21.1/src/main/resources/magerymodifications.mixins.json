@@ -3,14 +3,10 @@
   "package": "com.madelyndustries.magerymodifications.mixins",
   "refmap": "irons_spellbooks.refmap.json",
   "compatibilityLevel": "JAVA_21",
-  "plugin": "com.madelyndustries.magerymodifications.mixins.MixinPlugin",
   "mixins": [
     "PocketDimensionRubberbandingKillerMixin"
   ],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
-  }
+  "client": [
+  ],
+  "minVersion": "0.8"
 }

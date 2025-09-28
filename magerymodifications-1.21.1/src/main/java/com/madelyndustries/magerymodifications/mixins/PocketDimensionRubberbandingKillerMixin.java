@@ -10,8 +10,8 @@ import io.redspace.ironsspellbooks.capabilities.magic.PocketDimensionManager;
 import net.minecraft.world.level.Level;
 
 @Mixin(PocketDimensionManager.class)
-public class PocketDimensionRubberbandingKillerMixin {
+public abstract class PocketDimensionRubberbandingKillerMixin {
     @WrapMethod(method="tick")
-    private static void tick(Level level, Operation<Void> original){
+    private void tick(Level level, Operation<Void> original){
     }
 }
