@@ -1,10 +1,11 @@
 {
   "required": true,
-  "package": "com.madelyndustries.magerymodifications.mixin",
+  "package": "com.madelyndustries.magerymodifications.mixins",
+  "refmap": "irons_spellbooks.refmap.json",
   "compatibilityLevel": "JAVA_21",
-  "plugin": "net.madelyndustries.magerymodifications.mixins.MixinPlugin",
+  "plugin": "com.madelyndustries.magerymodifications.mixins.MixinPlugin",
   "mixins": [
-    "pocketDimensionRubberbandingKillerMixin"
+    "PocketDimensionRubberbandingKillerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
