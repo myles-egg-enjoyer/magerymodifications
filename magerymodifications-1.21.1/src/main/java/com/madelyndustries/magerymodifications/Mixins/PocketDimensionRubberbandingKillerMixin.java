@@ -1,4 +1,4 @@
-package com.madelyndustries.magerymodifications.mixins;
+package com.madelyndustries.magerymodifications.Mixins;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
